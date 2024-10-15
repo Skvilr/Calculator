@@ -1,0 +1,17 @@
+float x , y;                               
+ int c;
+ printf ("number one x =");
+ scanf ("%g", &x);
+ printf ("number two y =");
+ scanf ("%g", &y);
+ printf ("oper: \n1 = +\n2 = -\n3 = *\n4 = /\nselect code =");
+ scanf ("%d", &c);
+ if ( c == 1 )
+    printf ("%g + %g = %g", x, y, x + y);
+ if ( c == 2 )
+ printf ("%g - %g = %g", x, y, x - y);
+ if ( c == 3 )
+   printf ("%g * %g = %g", x, y, x * y);
+ if ( c == 4 )
+   printf ("%g / %g = %g", x, y, x / y);
+   return 0;
